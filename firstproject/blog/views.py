@@ -1,3 +1,12 @@
 from django.shortcuts import render
 
-# Create your views here.
+from django.views.generic.base import TemplateView
+
+class IndexView(TemplateView):
+    '''トップページのビュー
+    テンプレートのレンダリングに特化したTemplateViewを継承
+
+    Attributes:
+        template_name (str): レンダリングするテンプレートのパス
+    '''
+    template_name = 'index.html'
