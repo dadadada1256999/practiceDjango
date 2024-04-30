@@ -14,3 +14,8 @@
 ## アプリの作成
 
 - python .\manage.py startapp blog
+
+## マイグレーション
+
+- python .\manage.py makemigrations blog
+- python .\manage.py migrate 
