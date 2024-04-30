@@ -18,4 +18,8 @@
 ## マイグレーション
 
 - python .\manage.py makemigrations blog
-- python .\manage.py migrate 
+- python .\manage.py migrate
+
+# スーパーユーザーの作成
+
+- python .\manage.py createsuperuser
